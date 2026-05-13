@@ -1,0 +1,6 @@
+{
+  "name": "SwipeGuru",
+  "description": "Tutor-matching platform with Tinder-style swipe mechanics, booking sessions, and transaction management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
