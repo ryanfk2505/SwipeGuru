@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeGuru - Connect & Learn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        h1, h2, .font-syne { font-family: 'Syne', sans-serif; }
+        .swipe-card { transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen flex flex-col">
+    <!-- Mini SPA Logic Placeholder -->
+    <div id="app" class="flex-1 flex flex-col max-w-md mx-auto w-full bg-white shadow-xl overflow-hidden min-h-screen">
+        <header class="p-6 border-bottom flex justify-between items-center">
+            <h1 class="text-2xl font-syne text-indigo-600">SwipeGuru</h1>
+            <div id="user-info" class="text-sm font-semibold">Tamu</div>
+        </header>
+
+        <main id="content" class="flex-1 overflow-y-auto p-4 flex flex-col items-center justify-center">
+            <div class="text-center">
+                <p class="text-slate-500 mb-4">Silahkan login untuk mulai mencari tutor terbaik!</p>
+                <button onclick="showLogin()" class="bg-indigo-600 text-white px-8 py-3 rounded-2xl font-bold shadow-lg shadow-indigo-200">Masuk / Daftar</button>
+            </div>
+        </main>
+
+        <nav class="border-t p-4 flex justify-around bg-white">
+            <button class="flex flex-col items-center text-indigo-600">
+                <span>🔥</span><span class="text-[10px] font-bold">Cari</span>
+            </button>
+            <button class="flex flex-col items-center text-slate-400">
+                <span>💬</span><span class="text-[10px] font-bold">Pesan</span>
+            </button>
+            <button class="flex flex-col items-center text-slate-400">
+                <span>📅</span><span class="text-[10px] font-bold">Sesi</span>
+            </button>
+        </nav>
+    </div>
+
+    <script>
+        function showLogin() {
+            alert("Ini adalah demo frontend. Versi lengkap berjalan di React environment di atas.");
+        }
+    </script>
+</body>
+</html>
